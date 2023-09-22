@@ -1,0 +1,177 @@
+.one{
+    background-color: black;
+    width: 920px;
+    height:1000x;
+    border: 0px groove black;
+    border-radius: 12px ;
+    border-top-left-radius: 12px;
+    
+}
+p{
+    color: aliceblue;
+    margin-left: 36px;
+    margin-top: -22px;
+}
+img{
+margin-left: 7px;
+margin-top: 10px;
+}
+a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: azure;
+}
+#links{
+    margin-left: 160px;
+    margin-top: -30px;
+}
+.grid{
+    width: 240px;
+    padding: 8px;
+
+    display: grid;
+    
+    grid-template-columns: 400px 400px 300px 300px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.two{
+    width: 500px;
+    height: 380px;
+    background-color: white;
+    padding: 12px;
+    margin-left: -155px;
+    margin-top: 12px;
+    border: 0px groove white;
+    border-radius: 12px;
+}
+#a2{
+    font-size: 10px;
+    font-weight: 900;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    border: 1px groove black;
+    position: sticky;
+  padding: 0px 27px 0px 27px;
+  font-size: 10px;
+}
+.three{
+    height: 400px;
+    width: 350px;
+    background-image: url(fs.jpg);
+    border: 0px groove none;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-left: -22px;
+    background-repeat:round;
+
+}
+h3{
+    margin-top:350px;
+    width: 160px;
+    margin-left: 15px;
+    color:rgba(245, 245, 220, 0.983);
+}
+.four{
+    height: 120px;
+    width: 524px;
+    background-color: pink;
+    margin-left: -975px;
+    margin-top: 432px;
+    border-radius: 12px;
+   
+
+}
+#a4
+{
+    border-radius: 15px;
+    border-bottom-right-radius:37px ;
+
+}
+#a5{
+    margin-left: 150px ;
+    color: black;
+    font-weight: bolder;
+    margin-top: -45px;
+    
+}
+h5{
+    margin-left: 162px;
+    margin-top: -95px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.five{
+    height: 118px;
+    width: 361px;
+    border: 0px groove blue;
+    background-color: whitesmoke;
+    margin-left: 536px;
+    margin-top: -69px;
+border-radius: 12px;
+}
+.a6
+{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+#a7{
+    margin-left: 7px;
+    margin-top: -25px;
+    color: black;
+    font-size: medium;
+    padding: 0px 17px 0px 12px;
+    
+    font-weight: 100;
+    position: absolute;
+    border: 1px ridge black; 
+    border-radius: 8px;
+}
+#a8{
+    margin-left: 117px;
+    margin-top: -24px ;
+    color: black;
+    font-size: medium;
+    font-weight: 100;
+    position: absolute;
+    border: 1px ridge black; 
+    border-radius: 8px;
+    padding: 0px 17px 0px 12px;
+    
+
+}
+#a9{
+    margin-left: 238px;
+    margin-top: -22px;
+    color: black;
+    font-size: medium;
+    font-weight: 100;
+    position: absolute;
+    border: 1px ridge black; 
+    border-radius: 8px;
+    padding: 0px 17px 0px 12px;
+
+}
+#a10{
+    margin-left:20px ;
+    margin-top: 8px;
+    color: black;
+    font-size: medium;
+    font-weight: 100;
+    position: absolute;
+    border: 1px ridge black; 
+    border-radius: 8px;
+    padding: 0px 17px 0px 12px;
+
+}
