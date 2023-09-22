@@ -1,0 +1,135 @@
+ body{ 
+    background-color: rgb(30, 70, 96)
+} 
+
+
+
+
+
+
+.one{
+
+    border: 6px solid orange;
+    height: 480px;
+    width: 1000px;
+    background-color: #222638;
+    color: aliceblue;
+    font-family: arial;
+}
+#two{
+    color: wheat;
+    margin: 18px;
+    padding: 2px;
+    
+}
+#three{
+    background: orange;
+    border: 0px solid orange;
+    position: absolute;
+    margin: 19px;
+    width:370px;
+    height: 80px;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 4rem;
+    padding-top: 14px;
+    font-family: arial;
+    font-weight: bolder;
+}
+img{
+    margin-top: 80px;
+    margin-left: 40px;
+    
+
+}
+#four{
+    background: orange;
+    border: 0px solid orange;
+    position: absolute;
+    margin: 19px;
+    width:370px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    
+    padding-top: 14px;
+    font-family: arial;
+    font-weight: bolder;
+
+}
+#five{
+    background: yellow;
+    color: black;
+    border: 0px solid yellow;
+    position: absolute;
+    margin: 19px;
+    width:370px;
+    height: 40px;
+    text-align: center;
+    margin-top: 76px;
+    font-size: 1.5rem;
+    
+    padding-top: 14px;
+    font-family: arial;
+    font-weight: bolder;
+
+}
+
+#link{
+    text-align: center;
+    margin-top: -264px;
+    margin-left: 640px
+}
+a {
+    
+    text-decoration: none;
+    color: springgreen;
+}
+.image{
+    margin-left: 800px;
+    margin-top: -60px;
+}
+#shadow{
+    box-shadow: 0px 0px 20px rgb(219, 158, 158);
+    border: 5px groove navajowhite;
+}
+p{
+    margin-left: 500px;
+    margin-top: -40px;
+    color: olive;
+}
+.heading{
+    margin-left: 500px;
+    margin-top: -10px;
+    color:rgba(134, 180, 89, 0.449);
+}
+h6{
+    margin-left: 500px;
+    margin-top: -12px;
+    color: blueviolet;
+}
+h2{
+    margin-left: 500px;
+    margin-top: 45px;
+    text-decoration: underline;
+    color: yellow;
+
+}
+.about{
+    color:tan;
+    margin-top: -11px;
+
+}
+.class{
+    margin-left: 500px;
+}
+#type{
+    color: aqua;
+    margin-left: 500px;
+}
+button{
+    background-color: orange;
+    
+    
+}
