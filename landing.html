@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="landing.css">  
+          
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="WhatsApp Image 2023-10-06 at 10.48.39_3de6396c.jpg" class="logo" alt="notfound">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">contact</a>
+                <a href="#">help</a>
+                <a href="#">Catagories</a>
+                <a href="#">Features</a>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com"target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com"target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.WhatsApp.com"target="_blank"><i class="fa fa-whatsapp"></i></a>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="car">
+        <div class="text">
+            <h4>Poweful and fun</h4>
+            <h1>Face to fear
+                <br>
+                <span>Drive</span>
+            </h1>
+            <p>More power real performence</p>
+            <a href="" class="btn">Book a teste drive</a>
+        </div>
+    </div>
+    
+</body>
+<script>
+        const car=document.querySelector('.car')
+        setInterval(()=>{
+            car.style.backgroundImage="url(lighton.jpg)"
+setTimeout(()=>{
+    car.style.backgroundImage="url(lightoff.jpg)"
+},1000)
+        },2000)
+
+</script>
+</html>

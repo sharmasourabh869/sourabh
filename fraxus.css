@@ -1,0 +1,379 @@
+*{
+    margin-bottom: -30px;
+    padding-top: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+nav{
+    width:99vw;
+    height: 70px;
+    
+    padding: 0px 100px;
+    position: fixed;
+    background-color: rgb(15, 41, 51);
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+
+
+}
+  
+nav li a{
+    font-size: 18px;
+    padding: 0px 25px ;
+    color: white;
+    text-decoration: none;
+    
+
+}
+.logo{
+    position: absolute;
+}
+.content{
+    margin-top: 100px;
+
+}
+.content img{
+width: 99vw;
+height: 100vh;
+background-size: cover;
+background-position:center ;
+position: sticky;
+opacity:0.5;
+overflow: hidden;
+
+
+}
+.h1{
+    margin-top: -95vh;
+    padding: 20vw;
+    font-size: 10vh;
+    color: darkgreen;
+    font-weight: bolder;
+}
+.servics{
+text-align: center;
+margin-top: -187px;
+font-size: 10vh;
+}
+.models img{
+    height: 59vh;
+    width: 30vw;
+    padding: 40px;
+    border-radius: 20px;
+}
+.h2{
+    margin-left: 100px;
+    margin-top: -11px;
+
+}
+.h2 p{
+    position: absolute;
+    margin-left: -18px;
+width: 176px;
+padding: 13px 13px; 
+}
+.printing h2{
+        margin-left: 515px;
+        padding: 12px ;
+}
+.printing p{
+    margin-left: 515px;
+    width: 176px;
+    padding: 13px 13px;
+}
+.product h2{
+    margin-left: 825px;
+    margin-top: -85px;
+}
+.product p{
+    margin-left: 850px;
+    width: 176px;
+    padding: 18px 26px;
+}
+.design img{
+    height: 59vh;
+    width: 30vw;
+    padding: 40px;
+    margin-top: 100px;
+}
+.jw h2{
+
+    margin-left: 83px;
+    margin-top: 16px;
+}
+.jw p{
+    position: absolute;
+    margin-left: 105px;
+width: 176px;
+padding: 13px 13px; 
+}
+.metal h2{
+    margin-left: 484px;
+    padding: 12px;
+}
+.metal p{
+    margin-left: 513px;
+    width: 176px;
+    padding: 8px 13px;
+}
+.sp h2{
+    margin-left: 835px;
+    margin-top: -78px;
+}
+.sp p{
+    margin-left: 850px;
+    width: 176px;
+    padding: 17px 24px;
+}
+.welcome{
+    height: 490px;
+    width: 50%;
+    border: 1px solid white;
+    background-color: beige;
+margin-top: 75px;
+margin-left: 40px;
+}
+.welcome img{
+    height:30vh;
+    width: 18vw;
+    padding: 0px 0px 35px;
+    display: list-item;
+;
+    
+}
+.welcome h1{
+    float: right;
+    margin-top: -280px;
+    margin-right: 90px;
+    text-decoration: underline;
+    color: orange;
+}
+.welcome p{
+    width: 50%;
+    margin-left: 245px;
+    margin-top: -270px;
+    color: blue;
+}
+.hours{
+    height: 200px;
+    width: 97vw;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-left: -50px;
+    
+}
+.hours h1{
+    margin-top: 40px;
+    margin-left: 160px;
+    float: left;
+    color: rgb(15, 41, 51);
+}
+.hours p{
+    color: rgb(15, 41, 51);
+    margin-top: 117px;
+position: absolute;
+margin-left: 145px;
+font-size: 20px;
+font-weight: 600;
+}
+h6{
+    margin-top:120px;
+    margin-left: 470px;
+    font-size: 20px;
+    font-weight: 600px;
+    position: absolute;
+}
+h5{
+
+    margin-top:120px;
+    margin-left: 800px;
+    font-size: 20px;
+    font-weight: 600px;
+    position: absolute;
+}
+.industries{
+    background-color:rgb(160, 175, 189);
+    width: 1100px;
+    height: 570px;
+   margin-left: 50px;
+   margin-top: -19px;
+}
+.industries p{
+    
+    margin-top: 20px;
+    font-size: 8vh;
+    color: teal;
+    margin-left: 400px; 
+
+}
+.industries li{
+    margin-left: 300px;
+    margin-top:40px;
+    padding: 6px 11px;
+    color:rgb(1, 6, 6);
+}
+.projects{
+    height: 900px;
+    background: white;
+    width: 97vw;
+    margin-left: -44px;
+    border-top: 1px solid black;
+    
+}
+.projects p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    color: darkcyan;
+    text-decoration: underline;
+}
+.projects img{
+    display: inline-block;
+    height: 260px;
+    width: 400px;
+    margin-top: 30px;
+    padding: 2px 2px 2px 2px;
+}
+.map{
+    height: 550px ;
+    width: 97vw;
+    border-top: 1px solid black;
+    margin-left: -44px;
+
+}
+.map img{
+    height: 400px;
+    width: 400px;
+display: inline;
+padding: 0px 0px 0px 4px;
+margin-left: 170px;
+margin-top: 100px;
+border-bottom: 1px solid black;
+
+}
+.map p{
+    text-align: center;
+    margin-top: -448px;
+    font-size: 8vh;
+    color: black;
+    text-decoration: underline;
+}
+.location{
+    width: 97vw;
+    height: 550px;
+}
+.location iframe{
+    height: 300px;
+    width: 1000px;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.location p{
+    margin-top: -360px;
+    margin-left: 500px;
+    font-size: 8vh;
+    text-decoration: underline;
+    color: darkcyan;
+}
+.inq h4{
+    font-size: 6vh;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.inq p{
+    margin-top: 60px;
+    margin-left: 192px;
+    color: black;
+}
+.office h3{
+    text-align: end; 
+     margin-left: 750px;
+     margin-top: -68px; 
+}
+.office p{
+    margin-top:  46px;
+    margin-left: 679px;
+    color: black;
+}
+#gmail
+{
+    margin-top: 120px;
+    color: black;
+    width: 100px;
+}
+.emp h2{
+    margin-left: 700px;
+    margin-top: -20px;
+    font-size: 6vh;  
+}
+.emp p{
+    margin-top: 60px;
+    margin-left: 680px;
+    color: black;
+}
+.emp h1{
+    margin-top: 20px;
+    margin-right: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 100;
+}
+.input{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 100px;
+    
+}
+input{
+    width: 400px;
+    background-color: pink;
+    color: black;
+    
+}
+::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+button{
+margin-left: 260px;
+background-color: black;
+color: orange;
+padding: 5px 41px 12px 50px;
+font-weight:bolder;
+}
+
+.input label{
+    font-size: small;
+}
+.link a{
+    margin-left: 680px;
+    position: absolute;
+    margin-top: -380px;
+
+}
+.one{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.ul p{
+    margin-left: 680px;
+    font-weight: bolder;
+    color: gray;
+    font-size: 6vh;
+}
+.ul li{
+    margin-left: 700px;
+    margin-top: 40px;
+    width: 400px;
+}
