@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="youtube.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <i class="fa-solid fa-bars fa-2x"></i>
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS4AAACnCAMAAACYVkHVAAAA81BMVEUAAADjJSX////WIybZIyfSIiXQIibKISbHISbEICbBICbbJCbiAADiCAj1vL3eJCbiGxvqbW3tgYEiIiLiFBT29vbvlJTvj4/2x8f2wcH+9vbr6+v63N3Pz8/pJibqJia8vLwTExPbFhhra2v75OToV1eRkZGQGBhwEhLzra7wn5/YAADi4uL4zs4PAgNmEBE6OjpRUVHnTEygoKCurq57e3seBQU9CgpPDQ1dDxAuBwgnBgenGxuyHR2EFRaSGBgeHh43NzfmNTZMTExzc3O5ubnmQUJCCwtUDg6eGhpvEhIXBAQrKyteXl6np6frcnPpXl/fDq/HAAALL0lEQVR4nO2da0PiOhCGoYq4UgS04h1cFAVRWF1vIOCq6wVd1/3/v+YUaTOTSyGRQrN78n5jmrbp4zSdTqYxFjMyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL6H6j++npx3WpdXj5dXT03m81G46UCemk0Gs3m89XV0+Vlq3V98fpar0fd4ymofv3UdDl0b3q9dqezMD+XSMykUplMvFAUqTCQeFs8nkmlZhKJRPJLp9Nu9266LtXmVes16oscV63GQa+TTKRYDHH3kkOQexQGa8ZF2L6pPEV94Z/QSyfT5xMKGCWILr3Cl+5F1NevonovXpw+KaRisfP3+Fg3pNttHBWK7agxyOkiWYya1YcK8eeoUUjoSQPX8lTsRg1jpK70cK2BijdR4xihJ21c60O6+1cmakCMildRExmmtl7O5SoVNZIhutRp4BpI59uxo51zuW+YUUMJ1IV+zuW6VyVqLEG60dC54vFE1FiClIqajFDFy6i5iKVVhAoqaBqr9si96NijNPoqHYW2wyV3N25aRG/Uhl+wwQoTV4Jc6ere1giNZOAckmM4Y+IqSiVavwOUM2rDPmzYCZHWBTjXoTVKI3GlF/2mG+lxcUk9G5ETHVEbtmHDboi4GmToGo1rY5q4CnKZryPo3g9sX5nMvXij4F1TxSU5eKG78RyZ78G8HSauBdI93XAVpPr/Dbq3g8xo6DoP2vUzgmSEbrgkIy94Nq4gKxq6wqQVg+5ph6shdQG/oX/fwArGo+Bd1dWCNyDtcMllJU6gf/vE+CYyhiAU0+uGSzauh2cgDOrI5X6FiauhgmuqcZdsJBF7gP4RG4QXod6LsS7gyp6+53whcnlifM9lFXCN/RZU6MhdArrxTnwbmL6Higtnb7JE6SU4Xy4N9pGXGCYu6RwOz+YnmO5DxdUTJrscjGs0JCGusW9G6YT9DumrP3jB/bkZKi0UpYaNa3zvkk1AI1/yLBCLnQ3dU1nzE/Ou8XHFZYu/oLODt+llwWgWjhLCfuqBq9iSvAgI4QfOdE5+r4zYU1XiCdkQcWWddDoddIis4251nIDNRdnqJXhBHIQNMJjt0A3fzvf3z3eXP49LnHkW44JMaTbIwuJy7Nzh+no1ZwuIZNP26dJhtXq4WraFQIvStTjQ2x/9nxC44lTXPgnGVh7Y5yUcYDnQoogrXd3ztTSwOZyFxpW18xverxx3b9qP1Q1yksVTwb0rP3kGUWk//YCSNwiWRWmbDvYB8HKgxdWrAi57jdhWB5nl9Dqx5B0eV7oMPKxVmkfWWbQorfNRXUF6KhtY7FC/4K1o22JF5XUkcQXM94eCy0YHsZgx0HncsBhtnLLZfXlct+QoKxQaguSIPZtFv3tL4nqeIK483bs95F7ZU0H3rTLDq3AgiwsFWt/wsONv3hGcjZo6ksTVnByud7Z3S8S9snfC7lt39P1Y6EnjggzEPnqH9O/Fc9HJLDyySeJqTAwXr2PiXvaWuMUePb7JpiRieHTfptCxl07rtyqulynistKCo9Naom5H2ZQEfXVonPKefkHOhdxLEldlmrj+eEeyuWHeF/0qoIILXqrB0fxUF3oqruyc4WckeRRI4uqKq2/CwbW1VC6vIjRem+wfMK29l8vvxzzRgRRwwYAFzuWnc+DwD/2fy/BcIIGGLK4Jete77WSz6UcwVNNsm6rdz6LZYFik0j4L8rgQEyJvpmMXSA4MMNdGXiklcR1MzrvuBhbEwhvr7T1i8d8riYEa7AtfFHDxcaif6oKJ23Ou7a0uuMgrNhzKY5Fh+WGAVDfmFXDx47mf6oKgy79wAOiHXtHj8m4rFJEOCKKhy7s78XHKaPAqqODi70Y/1QWDGY+WDzUixlW4g0MNkhSr5PehFzekq8S09Glc7N1IxqVNzgLpV/9poA2uOIfrkN0J48qjyEsNF5NyGDwF6Qv3LeBdZ1ybqHHBUDXAhZ4GAlyHn8aFywX7IqkuMH3lyPpMNcbF7YRxVVEkoYaLzToQ+zBcO/rjWmN3CgkXqvSycNrZ4BIKJVEtnP37d3D5mf5QcOEqaJyc+Wdw7R17gjB1HFxniBaqsPxncAk0Di5UW4IzywZXgFAa8IfBNVIQ2ONKkr8Dl59bMLimhEspI2Fw6eddk0s+h+FdKunB6eCa3DyjxFBfPS2zesR/P5Xk89+OS8K78qjs1RPl7QpTG9PBNbmJMylcw795VJk4mw6uyc1i/5O4JlgjEQIu1bW8/i+4so4vPC2r/PX6xHEFfOY/ZVzZXN4XrgJTKFiaEq6WFriC0oOqC+FMHFc9AlzDc/V4amPyuBSnNlRKeaeCC88EFV9CwRXixNkUcN2xuHg2QbhUFz0T4wpxWjZgAZwQcfGz2FCzSib9AdcqxqW6DI4YFz/pDzej4qR/bG4cXKhoMrikpGzRJlRjssjjwvWDxetQcEFJiV9vA+WY/twtBwfl/TEuhU+oOFw2/kg0CBcqifBwQcWXX55kQ0EcVQ+nug65GBfMP/q+BP7GFyz9+PiN63kwLvHKcFK40ri2WZCRyLJ7eXQcKCh89L71sFjLh5RXiBPjemOtYBCUw93SLRhcCp9/opGqascLdg4fky+H27vrfwjkoOpBb8Uh5Etb/Sa4enADvxYpr9coxoUiiY/pNNECJoCrXw1NV6dgXOJ0qhgXuqpH+65KHVNUm1o9te0cqk31hio0eFlbZdt+RPus4erBZEi4cCnT9g4upfjpN0HGo22mrhzjEie8hLiGrgQgU/nsh1nBlc/UlzDKCYkgXG9BZ1sR7MkL4xK/Y4txBZbDW3K4/CM5+aAWdGmq8uLiAbgCYcDc7W9204o4kHiSxyX4kGdIICEQGZcC3Yv6zEr5DTsQ17L4bGiJiV122y0UXGBcF8KxKyvCFU+zV1nmKtvQk5HzRfjIRfwFlTu40V8hKK8FGoRLfDtSHx4z204CwtRYXKQAXOv0MXP20KieHepQSOXkLIGYtfoKzdBw8d7jNqEwPFDb7oOi+lginuFF4/Ktcdopyg71EvTRBMddzBd6izY6QVrA6zhNd6WgGtQPwRW732TOxi6CxoIMwNUR0MqUMK4SXCRymL27UqaGcA2gOgiXywTdvVsO/Qd5ZL86y6eZTqgvkw24BF/4U8WFm9x6hLeEz+C1OwBXN5PiVYI3F+u9BPYa4ZWvxVMpByL2w0ErBwA6mVSpRIKzao05T6b2joFV7xy2geqkbCx2suvrTbT53IuoNh+Em7/3HfDou5cUI4f6+RU3uooLcKUyJSLqKpzH6tbe3vpSbUAnzrUCy8dhnNLS4vHWej7lCP4mtcxSde1463jx8E+NheXuO4l1Zr/en3wb3WqYUqlZXrjf1IZMqVarOaUU14zb0ftdclB79iyl/tHczRnB9ozySD8VdcSXErk0XYK9m5rRUSnlV6Dp6DoTNRmhUrouWL8wGzUakWZ1/d96ldmEfprR9593JRJz2mlW3399052JGg6nhGol3DQVNRxeMzr/X7iKdu6l78jVV3suqZc0/9e9C1rxmtP+f4BqxUt7WrFYb25eDyUXZBe0jFQv88moSfWVlF+0K1rVD5LJ+S+RynUtPdM2QtUrHZdYVMhcz2rL/QMEfXTROGgvEGQLkxYh5fpVr6I8l6GH6pfNysFNr9PpXxAMK7xDKBBBTkSOt7DQ6bR7BwfdRvNS80hLUvWL69bl09Vzs9F4qVS63e7Bjater9d21ZHyoI7b0t3B3e2g261UXhqN5tXTZev64t8g9DnV+3p9rQ8UdW+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIzG138dePb3MlzrTQAAAABJRU5ErkJggg=="
+        alt="youtube not found" height="40px" width="100vw">
+
+      <input type="search" placeholder="Search">
+      <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+      <i class="fa-solid fa-microphone fa-lg" id="icon1"></i>
+      <div style="width: 30px; height: 30px; color: white; margin-left: 89% ; margin-top: -30px; fill: currentcolor;">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;" viewBox="0 0 24 24" width="24"
+          focusable="false">
+          <path
+            d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z">
+          </path>
+        </svg>
+      </div>
+
+      <div style="width: 30px; height: 30px; color: white; margin-left: 93%; margin-top: -30px; fill: currentcolor;">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+          width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path
+            d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z">
+          </path>
+        </svg>
+        <i class="fa-solid fa-gear fa-lg" style="margin-top:-16px; margin-left: 46px; position: absolute;"
+          id="setting"></i>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <main>
+    <div class="sidebar">
+      <div style="width: 30px; height: 30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <g>
+            <path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path>
+          </g>
+        </svg></div>
+      <p>Home</p>
+
+      <br><br>
+      <div style="width: 30px; height: 30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path
+            d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
+          </path>
+        </svg></div>
+      <p>Shorts</p>
+      <br><br>
+      <div style="width: 30px; height:30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path>
+        </svg></div>
+      <p>Subscription</p>
+      <br><br>
+      <div style="width: 30px; height: 30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path
+            d="M10 9.35 15 12l-5 2.65zM12 7a5 5 0 105 5 5 5 0 00-5-5m0-1a6 6 0 11-6 6 6 6 0 016-6zm0-3a9 9 0 109 9 9 9 0 00-9-9m0-1A10 10 0 112 12 10 10 0 0112 2z">
+          </path>
+        </svg></div>
+      <p>youtube music</p>
+      <br><br>
+      <div style="width: 30px; height: 30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path>
+        </svg></div>
+      <p>You</p>
+      <br><br>
+      <div style="width: 30px; height: 30px; color: white; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg"
+          height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          style="pointer-events: none; display: block; width: 100%; height: 100%;">
+          <path d="M17 18v1H6v-1h11zm-.5-6.6-.7-.7-3.8 3.7V4h-1v10.4l-3.8-3.8-.7.7 5 5 5-4.9z"></path>
+        </svg></div>
+      <p style="margin-left:-8px;">Download</p>
+    </div>
+    <div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+  </main>
+</body>
+<script>
+  const myurl = "https://api.github.com/users/defunkt"
+  const xhr = new XMLHttpRequest()
+  xhr.open('GET', myurl)
+  console.log(xhr.readyState);
+  xhr.onreadystatechange = function () {
+    console.log(xhr.readyState);
+    if (xhr.readyState == 4) {
+      const data = JSON.parse(this.responseText)
+      console.log(data.login);
+    }
+  }
+  xhr.send()
+</script>
+
+</html>
