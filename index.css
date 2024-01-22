@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper h1 {
+  background-color:darkslateblue;
+  color: burlywood;
+  text-align: center;
+}
+
+#wrapper p {
+  text-align: center;
+  color: darkgreen;
+  margin-top: 10px;
+  font-size: larger;
+}
+.form {
+  text-align: center;
+}
+.form label {
+  font-size: 6vh;
+  color: white;
+  font-weight: bolder;
+  
+}
+.guessfield {
+  height: 7vh;
+  width: 20vw;
+  border: 3px solid rgb(43, 34, 34);
+  align-content: center;
+  margin-top: 20px;
+  text-align: center;
+background-color: lightcoral;
+}
+.guessSubmit {
+  margin-top: 15px;
+  width: 10vw;
+  height: 7vh;
+  border-radius: 3px;
+  color:aqua;
+  background-color: black;
+  cursor: pointer;
+}
+#NewGame {
+  height: 8vh;
+  width: 10vw;
+  color: yellow;
+  background-color: black;
+  cursor: pointer;
+}
+#guess{
+  color:darkkhaki
+}
