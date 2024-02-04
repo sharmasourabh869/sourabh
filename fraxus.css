@@ -4,7 +4,9 @@
     padding: 1px;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x="hidden";
+}
 nav{
     width:99vw;
     height: 70px;
